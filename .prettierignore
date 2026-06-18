@@ -1,0 +1,9 @@
+#  Ignore the generated route tree file
+**/routeTree.gen.ts
+
+# Add files here to ignore them from prettier formatting
+/dist
+/coverage
+/.nx/cache
+/.nx/workspace-data
+/libs/ui/src/components/ui
