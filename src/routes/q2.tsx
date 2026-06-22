@@ -2,6 +2,7 @@ import { Answer } from '#/components/custom/Answer'
 import { Page } from '#/components/custom/Page'
 import { Question } from '#/components/custom/Question'
 import { createFileRoute } from '@tanstack/react-router'
+import { useState } from 'react'
 
 export const Route = createFileRoute('/q2')({
   component: RouteComponent,
@@ -13,7 +14,9 @@ function RouteComponent() {
   const languages = ['java', 'Typescript', 'python', 'c#']
 
   //TODO:
-  const handleOnClick = () => {}
+  const handleOnClick = () => {
+    const [_, __] = useState()
+  }
 
   return (
     <Page

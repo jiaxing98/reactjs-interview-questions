@@ -3,6 +3,7 @@ import { Page } from '#/components/custom/Page'
 import { Question } from '#/components/custom/Question'
 import { createFileRoute } from '@tanstack/react-router'
 import { useEffect, useState } from 'react'
+import { toast } from 'sonner'
 
 export const Route = createFileRoute('/q3')({
   component: RouteComponent,
@@ -19,9 +20,9 @@ function RouteComponent() {
 
   //TODO:
   useEffect(() => {
-    // toast('Event has been created', {
-    //   description: `Count`,
-    // })
+    toast('Event has been created', {
+      description: `Count`,
+    })
   }, [])
 
   return (
