@@ -12,11 +12,10 @@ function RouteComponent() {
   const navigate = Route.useNavigate()
 
   const languages = ['java', 'Typescript', 'python', 'c#']
+  const [_, __] = useState()
 
   //TODO:
-  const handleOnClick = () => {
-    const [_, __] = useState()
-  }
+  const handleOnClick = () => {}
 
   return (
     <Page
